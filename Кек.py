@@ -54,8 +54,8 @@ root = Tk()
 
 calculator = Calculator(root)
 root.geometry("400x400+300+300")
-root.title = "Шрекный калькулятор"
-root.colormapwindows = "green"
+root.title("Шрекный калькулятор")
+root['bg'] = 'green'
 root.mainloop()
 
 
